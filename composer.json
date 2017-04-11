@@ -1,0 +1,28 @@
+{
+    "name": "stn/api-key-bundle",
+    "description": "The bundle for building security mechanism which based on API key.",
+    "keywords": [
+        "api",
+        "key"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santino Wu",
+            "email": "santinowu.wsq@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stn\\ApiKeyBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "Tests/"
+        ]
+    },
+    "require": {
+        "symfony/framework-bundle": "^3.0"
+    },
+    "require-dev": {}
+}
